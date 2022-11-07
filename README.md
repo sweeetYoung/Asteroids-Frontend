@@ -14,7 +14,7 @@ You may also see any lint errors in the console.
 
 ### `npm run font`
 
-All icons are imported as SVG files,we can use this script to transfer them to webfont.
+All icons are imported as SVG files,we can use this script to transform them to webfont.
 
 ### `npm test`
 
