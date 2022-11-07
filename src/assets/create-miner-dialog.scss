@@ -1,0 +1,11 @@
+.save-btn {
+  //font-family: 'Lato';
+  width: 100px;
+  height: 36px;
+  border-radius: 8px;
+  font-weight: 900;
+  color: #1A1B2F;
+}
+.ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+  background: #242538;
+}

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "icons";
+    src: url("../public/icons.eot?c52a25deb587f4e5eddc8e95a343ebf5?#iefix") format("embedded-opentype"),
+url("../public/icons.woff2?c52a25deb587f4e5eddc8e95a343ebf5") format("woff2"),
+url("../public/icons.woff?c52a25deb587f4e5eddc8e95a343ebf5") format("woff"),
+url("../public/icons.ttf?c52a25deb587f4e5eddc8e95a343ebf5") format("truetype"),
+url("../public/icons.svg?c52a25deb587f4e5eddc8e95a343ebf5#icons") format("svg");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add-miner:before {
+    content: "\f101";
+}
+.icon-asteroid:before {
+    content: "\f102";
+}
+.icon-delete:before {
+    content: "\f103";
+}
+.icon-loader:before {
+    content: "\f104";
+}
+.icon-logo:before {
+    content: "\f105";
+}
+.icon-miner:before {
+    content: "\f106";
+}
+.icon-planet:before {
+    content: "\f107";
+}

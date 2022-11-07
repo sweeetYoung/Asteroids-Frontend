@@ -1,0 +1,9 @@
+{
+    "add-miner": "\\f101",
+    "asteroid": "\\f102",
+    "delete": "\\f103",
+    "loader": "\\f104",
+    "logo": "\\f105",
+    "miner": "\\f106",
+    "planet": "\\f107"
+}

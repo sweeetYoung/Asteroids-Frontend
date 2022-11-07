@@ -1,0 +1,32 @@
+.miner-map {
+  display: flex;
+  flex-direction: column;
+  //width: 45vw;
+  margin-left: 100px;
+  //min-width: 0;
+  margin-right: 50px;
+}
+.miner-grid {
+  width: 100%;
+  //height: 100%;
+  background: radial-gradient(70.99% 84.22% at 80.89% 12.01%, #1A000E 0%, #540048 50.56%, #000027 100%);
+  display: grid;
+  grid-template-columns: repeat(1000, auto);
+  grid-template-rows: repeat(1000, auto);
+  .planet1 {
+    width: 92px;
+    height: 92px;
+  }
+  .planet2 {
+    width: 150px;
+    height: 172px;
+  }
+  .planet3 {
+    width: 120px;
+    height: 120px;
+  }
+  .asteroid-img {
+    width: 50px;
+    height: 50px;
+  }
+}

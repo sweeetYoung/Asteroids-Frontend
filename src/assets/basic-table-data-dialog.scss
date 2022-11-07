@@ -1,0 +1,74 @@
+.modal {
+  min-width: 40vh;
+  .ant-modal-content {
+    border-radius: 12px;
+    background: #1A1B2F;
+  }
+
+  .ant-modal-header {
+    background: #1A1B2F;
+    border-bottom: 0;
+    span {
+      color: white;
+    };
+  }
+
+  .icon-delete-in-modal {
+    background: #31324B;
+    color: #FFFFFF;
+  }
+
+  .form-wrapper {
+
+    .ant-input {
+      background: #242538;
+      border: 1px solid #1A1C31;
+      color: #FFFFFF;
+    }
+
+    .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input, .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover {
+      background: #242538;
+      color: #FFFFFF;
+    }
+
+    .ant-input-number {
+      width: 100%;
+      background: #242538;
+      border: 1px solid #1A1C31;
+      color: #FFFFFF;
+    }
+
+    .ant-input-number-handler-wrap {
+      background: #242538;
+      span {
+        border-color: #9499C3;
+      }
+
+      .anticon {
+        color: #9499C3;
+      }
+
+    }
+
+    .ant-select-selector {
+      background: #242538;
+      border: 1px solid #1A1C31;
+      color: #FFFFFF;
+    }
+
+    .ant-select-suffix {
+      color: #FFFFFF;
+    }
+  }
+}
+
+.icon-delete {
+  color: white;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -1,5 +1,24 @@
+@import '~antd/dist/antd.css';
+@import "font.css";
+@import "icons.css";
+
+* body p span div {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato';
+}
+
 .App {
-  text-align: center;
+  /*font-family: 'Lato';*/
+  /*text-align: center;*/
+  background: #191A29;
+  /*background: white;*/
+  min-height: 100vh;
+  overflow: hidden;
+  min-width: 100vh;
 }
 
 .App-logo {
@@ -7,23 +26,41 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*@media (prefers-reduced-motion: no-preference) {*/
+/*  .App-logo {*/
+/*    animation: App-logo-spin infinite 20s linear;*/
+/*  }*/
+/*}*/
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.2em;
+  color: #FFFFFF;
+  margin-left: 56px;
+  margin-top: 29px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.icon-logo {
+  font-size: 24px;
+  height: 24px;
+}
+.App-header-title{
 
+}
+.App-content {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 37px;
+  /*margin-bottom: 5%;*/
+  /*margin: 37px 2% 5% 2%;*/
+  display: flex;
+  justify-content: space-between;
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +72,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.virtual-table .ant-table-container:before,
+.virtual-table .ant-table-container:after {
+  display: none;
+}
+.virtual-table-cell {
+  box-sizing: border-box;
+  padding: 16px;
+  border-bottom: 1px solid #e8e8e8;
+  background: #FFF;
+}
+[data-theme="dark"]  .virtual-table-cell {
+  box-sizing: border-box;
+  padding: 16px;
+  border-bottom: 1px solid #303030;
+  background: #141414;
 }
